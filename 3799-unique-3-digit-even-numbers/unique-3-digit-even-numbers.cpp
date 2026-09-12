@@ -46,9 +46,7 @@ public:
                 if(count[b]>0){
                     count[b]--;
                     if(count[c]>0){
-                        count[c]--;
                         ans++;
-                        count[c]++;
                     }
                     count[b]++;
                 }
