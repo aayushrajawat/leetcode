@@ -1,7 +1,7 @@
 class Solution {
 public:
     int totalNumbers(vector<int>& arr) {
-        int n=arr.size();
+       /* int n=arr.size();
         int ans=0;
         unordered_map<int,int> m;
         for(int ele:arr) m[ele]++;
@@ -25,8 +25,8 @@ public:
             }
         }
         return ans;
-
-        /* int n=arr.size();
+        */
+        int n=arr.size();
         int count[10]={0};
         
         for(int d:arr)
@@ -56,6 +56,6 @@ public:
             }
         }
         return ans;
-        */
+        
     }
 };
